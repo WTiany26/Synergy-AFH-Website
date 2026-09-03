@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /send-mail.php
-
-Sitemap: https://synergyafhproviderswa.com/sitemap.xml
