@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Explore Synergy AFH care homes in Washington State. Warm, home-like environments staffed by trained nurses with a maximum of 6 residents per home.">
+<link rel="canonical" href="https://synergyafhproviderswa.com/homes.html">
+<meta property="og:title" content="Our Homes | Synergy AFH Providers — Washington State">
+<meta property="og:description" content="Tour our warm, home-like care environments in Washington State. Licensed, nurse-staffed, fully inclusive — maximum 6 residents per home.">
+<meta property="og:url" content="https://synergyafhproviderswa.com/homes.html">
+<meta property="og:type" content="website">
+<title>Our Homes | Synergy AFH Providers — Washington State</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--forest:#1A3C2E;--forest-mid:#2A5740;--forest-lt:#3D7A58;--sage:#7BA693;--cream:#F5F0E8;--cream-dk:#EDE6D6;--gold:#B8923A;--gold-lt:#D4AF6A;--gold-pale:#F0E4C4;--white:#FDFAF5;--ink:#0E1F18;--ink-mid:#2C4038;--ink-muted:#5C7A6E;--border:rgba(26,60,46,0.12);--gold-border:rgba(184,146,58,0.25)}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:'DM Sans',sans-serif;background:var(--white);color:var(--ink);overflow-x:hidden;opacity:0;transition:opacity .35s ease}
+img{max-width:100%;display:block;opacity:0;transition:opacity .5s ease}
+img.il{opacity:1}
+.ph-bg img,.hbg img{opacity:1!important}
+a{cursor:pointer}button{cursor:pointer;font-family:'DM Sans',sans-serif}
+#cur,#curR{position:fixed;top:0;left:0;pointer-events:none;border-radius:50%;transform:translate(-50%,-50%);z-index:9999}
+#cur{width:8px;height:8px;background:var(--gold);transition:width .2s,height .2s;z-index:9999}
+#curR{width:32px;height:32px;border:1px solid var(--gold);opacity:.5;z-index:9998}
+#cur.big{width:14px;height:14px;background:var(--forest)}
+#curR.big{width:48px;height:48px}
+@media(hover:none){#cur,#curR{display:none}body{cursor:auto}}
+.skip-link{position:absolute;top:-100px;left:1rem;background:var(--gold);color:var(--white);padding:.6rem 1.2rem;border-radius:2px;font-size:.78rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;z-index:9999;transition:top .2s}
+.skip-link:focus{top:1rem}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+nav{position:fixed;top:0;left:0;right:0;height:76px;z-index:800;padding:0 5%;display:flex;align-items:center;justify-content:space-between;transition:background .5s,height .4s,box-shadow .4s}
+nav.scrolled{background:rgba(253,250,245,.97);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);height:62px;box-shadow:0 1px 0 var(--border)}
+.nl{display:flex;align-items:center;gap:12px;text-decoration:none}
+.nm{width:36px;height:36px;border:1.5px solid var(--gold);border-radius:50%;display:grid;place-items:center;transition:transform .4s;flex-shrink:0}
+.nl:hover .nm{transform:rotate(45deg)}
+.nt{font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-weight:500;color:var(--white);letter-spacing:.04em;line-height:1.2;transition:color .4s}
+.nt small{font-size:.6rem;font-weight:300;display:block;opacity:.7;letter-spacing:.1em;text-transform:uppercase}
+nav.scrolled .nt{color:var(--ink)}
+.nav-links{display:flex;gap:2rem;list-style:none}
+.nav-links a{font-size:.74rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;color:rgba(255,255,255,.8);transition:color .3s;position:relative;padding-bottom:2px}
+.nav-links a::after{content:'';position:absolute;bottom:-3px;left:0;right:0;height:1px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.nav-links a:hover,.nav-links a.active{color:var(--gold-lt)}
+.nav-links a:hover::after,.nav-links a.active::after{transform:scaleX(1)}
+nav.scrolled .nav-links a{color:var(--ink-mid)}
+nav.scrolled .nav-links a:hover,nav.scrolled .nav-links a.active{color:var(--gold)}
+.nc{font-size:.72rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:var(--gold);border:1px solid var(--gold);padding:.5rem 1.3rem;border-radius:2px;transition:background .3s,color .3s;white-space:nowrap}
+.nc:hover{background:var(--gold);color:var(--white)}
+.hbg-btn{display:none;flex-direction:column;gap:5px;background:none;border:none;padding:4px}
+.hbg-btn span{display:block;width:22px;height:1.5px;background:var(--white);border-radius:1px;transition:transform .3s,opacity .3s}
+nav.scrolled .hbg-btn span{background:var(--ink)}
+.hbg-btn.open span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+.hbg-btn.open span:nth-child(2){opacity:0}
+.hbg-btn.open span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+.mob-menu{display:none;position:fixed;inset:0;background:var(--forest);flex-direction:column;align-items:center;justify-content:center;gap:2.2rem;z-index:700;transform:translateY(-100%);transition:transform .45s cubic-bezier(.4,0,.2,1)}
+.mob-menu.open{transform:translateY(0)}
+.mob-menu a{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:300;color:var(--cream);text-decoration:none;letter-spacing:.05em;transition:color .25s}
+.mob-menu a:hover{color:var(--gold-lt)}
+.mob-menu .mc{font-family:'DM Sans',sans-serif;font-size:.8rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);padding:.65rem 2rem;border-radius:2px;margin-top:.5rem}
+.ph{position:relative;padding:160px 5% 80px;overflow:hidden;min-height:360px;display:flex;align-items:flex-end}
+.ph-bg{position:absolute;inset:0}
+.ph-bg img{width:100%;height:100%;object-fit:cover;filter:brightness(.38) saturate(.75)}
+.ph-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,30,20,.72),rgba(26,60,46,.5) 60%,rgba(184,146,58,.06))}
+.ph-in{position:relative;z-index:1;max-width:1360px;margin:0 auto;width:100%}
+.bc{font-family:'DM Mono',monospace;font-size:.63rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(245,240,232,.5);margin-bottom:1.2rem;display:flex;align-items:center;gap:8px}
+.bc a{color:rgba(245,240,232,.5);text-decoration:none;transition:color .2s}
+.bc a:hover{color:var(--gold-lt)}
+.bc span{color:var(--gold-lt)}
+.ph h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.4rem,5vw,4rem);font-weight:300;color:var(--white);line-height:1.1;letter-spacing:-.01em;max-width:700px}
+.ph h1 em{font-style:italic;color:var(--gold-lt)}
+.ph-sub{font-size:.97rem;color:rgba(245,240,232,.72);line-height:1.8;max-width:520px;margin-top:1.2rem;font-weight:300}
+.section{padding:6rem 5%}
+.container{max-width:1360px;margin:0 auto}
+.ey{font-family:'DM Mono',monospace;font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;display:flex;align-items:center;gap:10px}
+.ey::before{content:'';display:inline-block;width:20px;height:1px;background:var(--gold);flex-shrink:0}
+.ey.c{justify-content:center}.ey.c::before{display:none}
+.ey.lt{color:var(--gold-lt)}.ey.lt::before{background:var(--gold-lt)}
+.st{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,3.8vw,3.2rem);font-weight:300;line-height:1.18;color:var(--ink);letter-spacing:-.01em;margin-bottom:.5rem}
+.st em{font-style:italic;color:var(--forest-mid)}
+.sb{font-size:.95rem;color:var(--ink-muted);line-height:1.9;font-weight:300;max-width:520px}
+.bp{font-size:.74rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;background:var(--gold);color:var(--white);padding:.85rem 2.2rem;border-radius:2px;transition:background .3s,transform .3s;display:inline-block;border:none}
+.bp:hover{background:var(--gold-lt);transform:translateY(-2px)}
+.bg{font-size:.74rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:rgba(245,240,232,.85);border:1px solid rgba(245,240,232,.3);padding:.85rem 2.2rem;border-radius:2px;transition:border-color .3s,color .3s;display:inline-block}
+.bg:hover{border-color:var(--gold-lt);color:var(--gold-lt)}
+.bs{font-size:.74rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:var(--forest);border:1px solid rgba(26,60,46,.3);padding:.85rem 2.2rem;border-radius:2px;transition:background .3s,color .3s,border-color .3s;display:inline-block}
+.bs:hover{background:var(--forest);color:var(--white);border-color:var(--forest)}
+.ba{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .75s cubic-bezier(.4,0,.2,1),transform .75s cubic-bezier(.4,0,.2,1)}
+.reveal.left{transform:translateX(-28px)}.reveal.right{transform:translateX(28px)}
+.reveal.visible{opacity:1!important;transform:translate(0,0)!important}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+.mband{background:var(--forest);padding:.85rem 0;overflow:hidden;border-top:1px solid rgba(184,146,58,.2);border-bottom:1px solid rgba(184,146,58,.2)}
+.mtrack{display:flex;gap:0;width:max-content;animation:marquee 28s linear infinite}
+.mtrack:hover{animation-play-state:paused}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.mi{font-family:'Cormorant Garamond',serif;font-size:.93rem;font-weight:300;letter-spacing:.1em;color:rgba(245,240,232,.5);white-space:nowrap;padding:0 2rem;display:flex;align-items:center;gap:2rem}
+.mi::after{content:'✦';color:var(--gold);font-size:.62rem}
+.bcta{background:var(--forest);padding:5.5rem 5%;display:flex;align-items:center;justify-content:space-between;gap:2.5rem;flex-wrap:wrap;position:relative;overflow:hidden}
+.bcta::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(184,146,58,.06),transparent 60%);pointer-events:none}
+.bcta-t{font-family:'Cormorant Garamond',serif;font-size:clamp(1.7rem,3.2vw,2.8rem);font-weight:300;color:var(--cream);line-height:1.2;letter-spacing:-.01em}
+.bcta-t em{font-style:italic;color:var(--gold-lt)}
+.bcta-a{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;flex-shrink:0}
+.mq{background:var(--cream-dk);padding:4rem 5%;text-align:center}
+.mq blockquote{font-family:'Cormorant Garamond',serif;font-size:clamp(1.3rem,2.8vw,1.9rem);font-weight:300;color:var(--forest);line-height:1.55;font-style:italic;max-width:780px;margin:0 auto}
+.mq cite{display:block;margin-top:1.4rem;font-family:'DM Mono',monospace;font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-style:normal}
+footer{background:var(--ink);color:var(--cream);padding:5rem 5% 2.5rem}
+.fg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2.5rem;max-width:1360px;margin:0 auto 3.5rem}
+.fbn{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:400;color:var(--cream);margin:1rem 0 .7rem;letter-spacing:.04em}
+.fb p{font-size:.79rem;color:rgba(245,240,232,.42);line-height:1.8;font-weight:300;max-width:240px}
+.fc h4{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(245,240,232,.36);margin-bottom:1.2rem}
+.fc ul{list-style:none;display:flex;flex-direction:column;gap:.55rem}
+.fc a{color:rgba(245,240,232,.5);text-decoration:none;font-size:.8rem;font-weight:300;transition:color .22s}
+.fc a:hover{color:var(--gold-lt)}
+.fd{max-width:1360px;margin:0 auto 1.8rem;border:none;border-top:1px solid rgba(245,240,232,.08)}
+.fb2{max-width:1360px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.8rem;font-size:.72rem;color:rgba(245,240,232,.3)}
+.fb2 a{color:rgba(245,240,232,.4);text-decoration:none}
+.fb2 a:hover{color:var(--gold-lt)}
+#btt{position:fixed;bottom:2rem;right:2rem;z-index:600;width:42px;height:42px;background:var(--forest);color:var(--gold-lt);border:1px solid rgba(184,146,58,.3);border-radius:2px;font-size:.9rem;display:grid;place-items:center;opacity:0;pointer-events:none;transition:opacity .3s,transform .3s;cursor:pointer}
+#btt.show{opacity:1;pointer-events:auto}#btt:hover{transform:translateY(-3px)}
+.fcall{display:none;position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%);z-index:600;background:var(--gold);color:var(--white);padding:.7rem 2rem;border-radius:50px;font-size:.73rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;box-shadow:0 8px 28px rgba(184,146,58,.4);white-space:nowrap;transition:background .25s,transform .25s,opacity .3s}
+.fcall:hover{background:var(--gold-lt);transform:translateX(-50%) translateY(-2px)}
+.fcall.hide{opacity:0;pointer-events:none}
+@media(max-width:768px){.fcall{display:block}#btt{display:none}.nav-links,.nc{display:none}.hbg-btn{display:flex}.mob-menu{display:flex}.section{padding:4.5rem 5%}.bcta{flex-direction:column;text-align:center;padding:4rem 5%}.bcta-a{justify-content:center}.fg{grid-template-columns:1fr 1fr;gap:2rem}.ph{padding:130px 5% 60px;min-height:300px}}
+@media(max-width:480px){.fg{grid-template-columns:1fr}.ba{flex-direction:column}.bp,.bg,.bs{text-align:center;width:100%}}
+
+.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}
+.intro-img{border-radius:4px;overflow:hidden;box-shadow:0 32px 64px rgba(10,30,20,.14)}
+.intro-img img{width:100%;height:460px;object-fit:cover;display:block}
+.feat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--border);border-radius:4px;overflow:hidden;margin-top:3rem}
+.feat-item{padding:2.2rem 1.8rem;border-right:1px solid var(--border);text-align:center;transition:background .3s}
+.feat-item:last-child{border-right:none}
+.feat-item:hover{background:var(--gold-pale)}
+.feat-num{font-family:'Cormorant Garamond',serif;font-size:2.8rem;font-weight:300;color:var(--gold);display:block;line-height:1;margin-bottom:.5rem}
+.feat-lbl{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-muted)}
+.hcg{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3.5rem}
+.hc{border-radius:4px;overflow:hidden;border:1px solid var(--border);transition:transform .35s,box-shadow .35s;background:var(--white)}
+.hc:hover{transform:translateY(-8px);box-shadow:0 28px 56px rgba(10,30,20,.12)}
+.hc-img{position:relative;overflow:hidden;height:220px}
+.hc-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}
+.hc:hover .hc-img img{transform:scale(1.06)}
+.hc-body{padding:1.8rem}
+.hc-title{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:500;color:var(--ink);margin-bottom:.65rem}
+.hc-desc{font-size:.82rem;color:var(--ink-muted);line-height:1.8;font-weight:300}
+.diff-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);border:1px solid var(--border);border-radius:4px;overflow:hidden}
+.ds{background:var(--white);padding:2.5rem 2rem;text-align:center;transition:background .3s}
+.ds:hover{background:var(--cream)}
+.ds-icon{width:48px;height:48px;margin:0 auto 1.2rem;color:var(--forest-mid)}
+.ds-title{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:500;color:var(--ink);margin-bottom:.6rem}
+.ds-desc{font-size:.82rem;color:var(--ink-muted);line-height:1.8;font-weight:300}
+@media(max-width:1024px){.intro-grid{grid-template-columns:1fr}.hcg{grid-template-columns:1fr 1fr}.feat-row{grid-template-columns:1fr 1fr}.feat-item:nth-child(2){border-right:none}.feat-item{border-bottom:1px solid var(--border)}.diff-strip{grid-template-columns:1fr}}
+@media(max-width:768px){.hcg{grid-template-columns:1fr}.intro-img img{height:300px}.feat-row{grid-template-columns:1fr}.feat-item{border-right:none}}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<div id="cur" aria-hidden="true"></div><div id="curR" aria-hidden="true"></div>
+<button id="btt" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<a href="tel:+14255032432" class="fcall" id="fc">Call Us Now</a>
+<nav id="nav" role="navigation" aria-label="Main navigation">
+  <a href="/"  class="nl"><div class="nm"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#B8923A" stroke-width="1.5" stroke-linecap="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 12h8M12 8v8"/></svg></div><div class="nt">Synergy AFH<small>Providers of Washington State</small></div></a>
+  <ul class="nav-links" role="list"><li><a href="/" >Home</a></li><li><a href="/about" >About</a></li><li><a href="/services" >Services</a></li><li><a href="/homes"  class=active>Our Homes</a></li><li><a href="/contact" >Contact</a></li></ul>
+  <a href="tel:+14255032432" class="nc">Call Now</a>
+  <button class="hbg-btn" id="hbg" aria-label="Open menu" aria-expanded="false" aria-controls="mob"><span></span><span></span><span></span></button>
+</nav>
+<div class="mob-menu" id="mob" role="dialog" aria-label="Mobile navigation"><a href="/"  class="ml">Home</a><a href="/about"  class="ml">About</a><a href="/services"  class="ml">Services</a><a href="/homes"  class="ml">Our Homes</a><a href="/contact"  class="ml">Contact</a><a href="tel:+14255032432" class="mc ml">+1 (425) 503-2432</a></div>
+<main id="main">
+
+<div class="ph">
+  <div class="ph-bg"><img src="https://images.unsplash.com/photo-1586105251261-72a756497a11?w=1400&auto=format&fit=crop&q=80" alt="Warm, home-like care environment" loading="eager"></div>
+  <div class="ph-in">
+    <div class="bc"><a href="/" >Home</a>›<span>Our Homes</span></div>
+    <h1>Care Homes Built on<br><em>Dignity &amp; Comfort</em></h1>
+    <p class="ph-sub">Every Synergy home is carefully selected, staffed by trained nurses, and designed to feel like home — not a facility. Maximum 6 residents. All services included.</p>
+  </div>
+</div>
+
+<section class="section" style="background:var(--white)">
+<div class="container intro-grid">
+  <div class="intro-img reveal left">
+    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&auto=format&fit=crop&q=80" alt="Warm and comfortable care home living space" loading="lazy">
+  </div>
+  <div class="reveal right">
+    <div class="ey">What to Expect</div>
+    <h2 class="st">A Real Home,<br>Not a <em>Facility</em></h2>
+    <p class="sb" style="margin-top:1.2rem">Every Synergy home is a genuine residential setting — not a clinical institution. We deliberately maintain a small resident count so every individual receives attentive, personalized care from people who truly know them.</p>
+    <p class="sb" style="margin-top:1rem;max-width:100%">Our homes are selected for their warm atmosphere, accessibility, safety, and proximity to medical services. Each is staffed around the clock by background-checked, trained caregivers under registered nurse supervision.</p>
+    <div class="feat-row" style="margin-top:2rem">
+      <div class="feat-item"><span class="feat-num">6</span><span class="feat-lbl">Max Residents<br>Per Home</span></div>
+      <div class="feat-item"><span class="feat-num">24/7</span><span class="feat-lbl">Caregiver<br>Presence</span></div>
+      <div class="feat-item"><span class="feat-num">100%</span><span class="feat-lbl">Services<br>Included</span></div>
+      <div class="feat-item"><span class="feat-num">WA</span><span class="feat-lbl">State<br>Licensed</span></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section" style="background:var(--cream)">
+<div class="container">
+  <div class="reveal" style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:2rem">
+    <div><div class="ey">Home Environments</div><h2 class="st">Inside a <em>Synergy Home</em></h2></div>
+    <a href="/contact"  class="bs">Schedule a Tour</a>
+  </div>
+  <div class="hcg">
+    <div class="hc reveal"><div class="hc-img"><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&auto=format&fit=crop&q=75" alt="Warm, comfortable living space in care home" loading="lazy"></div><div class="hc-body"><div class="hc-title">Warm Living Spaces</div><p class="hc-desc">Comfortable, home-like common areas where residents gather, socialize, watch television, and enjoy daily life — just like home.</p></div></div>
+    <div class="hc reveal" style="transition-delay:80ms"><div class="hc-img"><img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&auto=format&fit=crop&q=75" alt="Private, dignified bedroom for resident" loading="lazy"></div><div class="hc-body"><div class="hc-title">Private Bedrooms</div><p class="hc-desc">Dignified, personalized private rooms where residents can rest, reflect, display their belongings, and truly feel at home.</p></div></div>
+    <div class="hc reveal" style="transition-delay:160ms"><div class="hc-img"><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&auto=format&fit=crop&q=75" alt="Nutritious meal preparation in care home" loading="lazy"></div><div class="hc-body"><div class="hc-title">Nutritious Dining</div><p class="hc-desc">Fresh, balanced meals prepared daily by trained staff, carefully tailored to each resident's dietary needs and personal preferences.</p></div></div>
+    <div class="hc reveal"><div class="hc-img"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=75" alt="Safe outdoor garden area for elderly residents" loading="lazy"></div><div class="hc-body"><div class="hc-title">Outdoor &amp; Garden Areas</div><p class="hc-desc">Safe, accessible outdoor spaces for fresh air, gentle exercise, gardening, and peaceful relaxation — year-round wellbeing.</p></div></div>
+    <div class="hc reveal" style="transition-delay:80ms"><div class="hc-img"><img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=600&auto=format&fit=crop&q=75" alt="Medical-ready care facility with professional staff" loading="lazy"></div><div class="hc-body"><div class="hc-title">Medical-Ready Facilities</div><p class="hc-desc">Homes equipped and configured for nurse delegation, medication management, in-home physician visits, and clinical monitoring.</p></div></div>
+    <div class="hc reveal" style="transition-delay:160ms"><div class="hc-img"><img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&auto=format&fit=crop&q=75" alt="Social activity space for elderly residents" loading="lazy"></div><div class="hc-body"><div class="hc-title">Activity &amp; Social Spaces</div><p class="hc-desc">Dedicated areas for games, crafts, group activities, and family visits — fostering connection, joy, and community every day.</p></div></div>
+  </div>
+</div>
+</section>
+
+<section class="section" style="background:var(--white)">
+<div class="container">
+  <div class="reveal" style="text-align:center;max-width:580px;margin:0 auto 3rem">
+    <div class="ey c">Standards</div>
+    <h2 class="st" style="text-align:center">Why Our Homes<br>Are <em>Different</em></h2>
+  </div>
+  <div class="diff-strip">
+    <div class="ds reveal"><svg class="ds-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><circle cx="24" cy="16" r="8"/><path d="M8 40c0-8.84 7.16-16 16-16s16 7.16 16 16"/></svg><div class="ds-title">6:1 Resident-to-Caregiver Ratio</div><p class="ds-desc">Our homes maintain Washington State's best resident-to-caregiver ratio — ensuring every resident receives genuine, attentive care throughout the day.</p></div>
+    <div class="ds reveal" style="transition-delay:100ms"><svg class="ds-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M24 4l4 8 9 1.3-6.5 6.3 1.5 9L24 24l-8 4.6 1.5-9L11 13.3 20 12z"/></svg><div class="ds-title">DSHS Licensed &amp; Audited</div><p class="ds-desc">All Synergy homes are licensed by Washington State DSHS and undergo regular independent quality audits and compliance reviews.</p></div>
+    <div class="ds reveal" style="transition-delay:200ms"><svg class="ds-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M12 20C12 13.37 17.37 8 24 8s12 5.37 12 12c0 10-12 20-12 20S12 30 12 20z"/><circle cx="24" cy="20" r="4"/></svg><div class="ds-title">Community-Embedded Locations</div><p class="ds-desc">Our homes are located within real residential neighborhoods — close to medical facilities, parks, places of worship, and community amenities.</p></div>
+  </div>
+</div>
+</section>
+
+<div class="mq reveal"><blockquote>"Every Synergy home is a place where clinical excellence and genuine warmth coexist — where residents are known by name, by preference, and by heart."</blockquote><cite>— Synergy AFH Providers</cite></div>
+
+<div class="bcta">
+  <div class="reveal left"><div class="ey lt">Find the Right Home</div><div class="bcta-t">Schedule a Tour &amp;<br><em>Meet Our Caregivers</em></div></div>
+  <div class="bcta-a reveal right"><a href="tel:+14255032432" class="bp">Call +1 (425) 503-2432</a><a href="/contact"  class="bg">Request a Consultation</a></div>
+</div>
+</main>
+<footer>
+<div class="fg">
+  <div class="fb"><div style="width:34px;height:34px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#B8923A" stroke-width="1.5" stroke-linecap="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 12h8M12 8v8"/></svg></div><div class="fbn">Synergy AFH Providers</div><p>Transforming senior care across Washington State — one family, one home, one life at a time.</p></div>
+  <div class="fc"><h4>Quick Links</h4><ul><li><a href="/" >Home</a></li><li><a href="/about" >About Us</a></li><li><a href="/services" >Services</a></li><li><a href="/homes" >Our Homes</a></li><li><a href="/contact" >Contact</a></li></ul></div>
+  <div class="fc"><h4>Services</h4><ul><li><a href="/services" >Transitional Placement</a></li><li><a href="/services" >Medical Oversight</a></li><li><a href="/services" >Hospice Support</a></li><li><a href="/services" >Respite Care</a></li><li><a href="/services" >Medication Admin</a></li><li><a href="/services" >Social Engagement</a></li></ul></div>
+  <div class="fc"><h4>Contact</h4><ul><li><a href="tel:+14255032432">+1 (425) 503-2432</a></li><li><a href="tel:+14133885350">+1 (413) 388-5350</a></li><li><a href="mailto:info@synergyafhproviderswa.com">Email Us</a></li><li><a href="https://maps.google.com/?q=13030+48th+Ave+W+Mukilteo+WA+98275" target="_blank" rel="noopener">Get Directions</a></li><li><a href="/contact" >Send a Message</a></li></ul></div>
+</div>
+<hr class="fd">
+<div class="fb2"><span>© <span id="yr"></span> Synergy AFH Providers of Washington State. All rights reserved.</span><span><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></span></div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded',()=>{document.body.style.opacity='1';});
+const cur=document.getElementById('cur'),curR=document.getElementById('curR');
+let mx=0,my=0,rx=0,ry=0;
+const isT=()=>window.matchMedia('(hover:none)').matches;
+if(!isT()&&cur&&curR){
+  document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cur.style.left=mx+'px';cur.style.top=my+'px';});
+  (function r(){rx+=(mx-rx)*.12;ry+=(my-ry)*.12;curR.style.left=rx+'px';curR.style.top=ry+'px';requestAnimationFrame(r);})();
+  document.querySelectorAll('a,button,.sc,.wp,.cc,.hc,.tc').forEach(el=>{
+    el.addEventListener('mouseenter',()=>{cur.classList.add('big');curR.classList.add('big');});
+    el.addEventListener('mouseleave',()=>{cur.classList.remove('big');curR.classList.remove('big');});
+  });
+}
+const nav=document.getElementById('nav'),btt=document.getElementById('btt');
+window.addEventListener('scroll',()=>{nav&&nav.classList.toggle('scrolled',window.scrollY>60);btt&&btt.classList.toggle('show',window.scrollY>400);},{passive:true});
+const hbg=document.getElementById('hbg'),mob=document.getElementById('mob');
+function cm(){hbg&&hbg.classList.remove('open');mob&&mob.classList.remove('open');if(hbg)hbg.setAttribute('aria-expanded','false');document.body.style.overflow='';}
+if(hbg&&mob){hbg.addEventListener('click',()=>{const o=mob.classList.toggle('open');hbg.classList.toggle('open',o);hbg.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';});document.querySelectorAll('.ml').forEach(a=>a.addEventListener('click',cm));document.addEventListener('keydown',e=>{if(e.key==='Escape')cm();});}
+document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{const t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();const h=document.getElementById('nav');window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-(h?h.offsetHeight:62)-8,behavior:'smooth'});cm();}});});
+const ro=new IntersectionObserver(entries=>{entries.forEach(en=>{if(en.isIntersecting){en.target.classList.add('visible');ro.unobserve(en.target);}});},{threshold:.08,rootMargin:'0px 0px -30px 0px'});
+document.querySelectorAll('.reveal').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<window.innerHeight&&r.bottom>0)el.classList.add('visible');else ro.observe(el);});
+document.querySelectorAll('img').forEach(img=>{if(img.complete)img.classList.add('il');else img.addEventListener('load',()=>img.classList.add('il'));});
+const fc=document.getElementById('fc'),ct=document.getElementById('contact');
+if(fc&&ct){new IntersectionObserver(e=>e.forEach(en=>fc.classList.toggle('hide',en.isIntersecting)),{threshold:.2}).observe(ct);}
+document.getElementById('yr')&&(document.getElementById('yr').textContent=new Date().getFullYear());
+</script>
+</body></html>
